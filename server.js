@@ -7,7 +7,7 @@ const MCQRoute = require('./routes/MCQRoute');
 const app = express();
 app.use(express.json());
 
-const whiteList = ['https://nedim-SE.github.io'];
+const whiteList = ['https://nedim-se.github.io/man-review/'];
 
 const corsOptions = {
   origin: (origin, callback) => {

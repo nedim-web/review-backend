@@ -1,7 +1,7 @@
 const ESS = require('../models/ESSModel');
 
 const getAllEss = async (req, res) => {
-    const ESSs= await MCQ.find({});
+    const ESSs= await ESS.find({});
     
     if(!ESSs){
         res.status(400).json({msg: 'Unable to get'});
